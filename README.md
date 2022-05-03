@@ -1,8 +1,8 @@
 <b>README.md</b>
-<b>E-Ink Tide Charts Display</b>
-This software uses one of two web sources of tide data to display a Tide Chart on a Waveshare 7 by 5 tri-color display.
+<b>E-Ink Tide Charts Display</b><br>
+This software uses one of two web sources of tide data to display a Tide Chart on a Waveshare 7 by 5 tri-color display.<br>
 
-There are 3 major python files;
+There are 3 major python files;<br>
   <pre><code>
   tides_main.py
   tides_display.py
