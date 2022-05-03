@@ -7,8 +7,7 @@ This software is written specifically to the size and 3-color nature of this dis
 For specific info on using e-paper display with RPi, see;<br>
 https://www.waveshare.com/wiki/Template:Raspberry_Pi_Guides_for_SPI_e-Paper<br>
 For information on the specific display used for this project see;<br>
-https://www.waveshare.com/wiki/7.5inch_e-Paper_HAT_(B)<br><br>
-
+https://www.waveshare.com/wiki/7.5inch_e-Paper_HAT_(B)<br>
 
 There are 3 major python files;<br>
   <pre><code>
@@ -41,7 +40,7 @@ Enter;
   ls -la </pre></code>
 This should list the files copied from github to verify it worked properly</br>
 
-<b>Setup software</b>
+<b>SETUP SOFTWARE</b>
 Open 'tides_layouts.py', read the instructions and fill in the location information required.
 <pre><code>
 # For Layout 0:
@@ -66,3 +65,11 @@ to display. While layout1 uses data from an API at https://tidesandcurrents.noaa
 the data using matplotlib library. There is an advantage to layout0 in that you can display tide charts from around 
 the world, while layout1 is for the US only.</i>
 
+<b>RUNNING SOFTWARE</b>
+From the command line enter;
+<pre><code>
+sudo python3 tides_main.py  0 # 0 = layout0, 1 = layout1</pre></code>
+
+If you leave the number off it will default whatever the variable 'use_disp_format' is set to in 'tides_main.py'
+<pre><code>
+use_disp_format = 0 # 0 = layout0, 1 = layout1</pre></code>
