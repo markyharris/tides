@@ -2,7 +2,7 @@
 <b>E-Ink Tide Charts Display</b><br>
 This software uses one of two web sources of tide data to display a Tide Chart on a Waveshare 7 by 5 tri-color display.<br>
 See https://www.waveshare.com/7.5inch-e-paper-hat-b.htm for more information and pricing from Waveshare.<br><br>
-This software is written specifically to the size and 3-color nature of this display. However, the layouts are in a separate module and can be modified to fit other sizes of display if the desire is there. Theoretically a 2 color 7x5 could be used as well. See script 'metar_main.py' for comments on this.
+This software is written specifically to the size and 3-color nature of this display. However, the layouts are in a separate module and can be modified to fit other sizes of display if the desire is there. Theoretically a 2 color 7x5 could be used as well.
 
 For specific info on using e-paper display with RPi, see;<br>
 https://www.waveshare.com/wiki/Template:Raspberry_Pi_Guides_for_SPI_e-Paper<br>
