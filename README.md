@@ -3,7 +3,8 @@
 This software uses one of two web sources of tide data to display a Tide Chart on a Waveshare 7 by 5 tri-color display.<br>
 
 There are 3 major python files;<br>
-  <pre><code>tides_main.py
+  <pre><code>
+  tides_main.py
   tides_display.py
   tides_layouts.py</code></pre><br>
   
