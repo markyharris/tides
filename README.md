@@ -63,13 +63,13 @@ annotate_levels = 0 # 0 = no annotation, 1 = yes annotation, but it clutters dis
 <i><b>Note:</b> layout0 uses an image created by https://www.tide-forecast.com/, scraped and converted to 1 bit image
 to display. While layout1 uses data from an API at https://tidesandcurrents.noaa.gov/map/index.html to plot
 the data using matplotlib library. There is an advantage to layout0 in that you can display tide charts from around 
-the world, while layout1 is for the US only.</i>
+the world, while layout1 is for the US only. But layout1 can is more readable and can display 7 days worth of tide info.</i>
 
 <b>RUNNING SOFTWARE</b>
 From the command line enter;
 <pre><code>
 sudo python3 tides_main.py  0 # 0 = layout0, 1 = layout1</pre></code>
 
-If you leave the number off it will default whatever the variable 'use_disp_format' is set to in 'tides_main.py'
+If you leave the number off it will default to whatever the variable 'use_disp_format' is set to in 'tides_main.py'
 <pre><code>
 use_disp_format = 0 # 0 = layout0, 1 = layout1</pre></code>
