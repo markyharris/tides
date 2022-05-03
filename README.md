@@ -1,6 +1,7 @@
 <b>README.md</b><br>
 <b>E-Ink Tide Charts Display</b><br>
 This software uses one of two web sources of tide data to display a Tide Chart on a Waveshare 7 by 5 tri-color display.<br>
+See https://www.waveshare.com/7.5inch-e-paper-hat-b.htm for more information and pricing from Waveshare.<br>
 
 There are 3 major python files;<br>
   <pre><code>
